@@ -1,0 +1,57 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+
+p {
+  text-wrap: pretty;
+}
+
+#root, #__next {
+  isolation: isolate;
+}
+
+#target {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100svh;
+}
+
+.ping .pong-inner {
+    display: none;
+}
+
+.pong .ping-inner {
+    display: none;
+}
+
+.ping {
+    color: #000;
+    background: #409595;
+}
+
+.ping p {
+    font-family: "Geist Mono", monospace;
+    font-size: 3rem;
+}
+
+.pong {
+    color: #fff;
+    background: #cc4545;
+}
+
+.pong p {
+    font-family: "Kablammo", sans-serif;
+    font-size: 10rem;
+}
+

@@ -6,7 +6,7 @@ I don't think I'll be able to make a better site than this.
 
 # Testimonials
 
-> What goes **PING**, must always come back **PONG**
+> "What goes **PING** must always come **PONG**"
 >
-> - Isaac Newton
+> -- Isaac Newton
 
